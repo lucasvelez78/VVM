@@ -32,7 +32,7 @@ function Navbar() {
           <a href="/publicaciones">Publicaciones</a>
         </li>
         <li>
-          <a href="/contacto">Contáctanos</a>
+          <a href="/contact">Contáctanos</a>
         </li>
       </ul>
       <div className="burger" onClick={navSlide}>

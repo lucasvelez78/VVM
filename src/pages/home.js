@@ -16,7 +16,7 @@ function Home() {
             phasellus. Tristique senectus et netus et malesuada fames ac. Sed
             arcu non odio euismod lacinia at quis risus sed.
           </p>
-          <a className="registerBtn" href="/registro">
+          <a className="registerBtn" href="/register">
             Regístrate
           </a>
         </div>
