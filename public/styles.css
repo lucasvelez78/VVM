@@ -375,7 +375,7 @@ nav {
   width: 100%;
   height: 30%;
   background-color: #b270a2;
-  padding-top: 6rem;
+  padding-top: 4.5rem;
   padding-bottom: 4rem;
   margin: 0;
 }
@@ -721,7 +721,7 @@ textarea {
   border: none;
   background-color: #fdf0ec;
   margin: auto 20px;
-  margin-top: -25px;
+  margin-top: -65px;
 }
 
 .card-img {
@@ -739,7 +739,7 @@ textarea {
   font-family: "Quicksand", sans-serif;
   color: #b270a2;
   padding: 10px;
-  padding-bottom: 0px;
+  padding-bottom: 20px;
 }
 
 .card-description h2 {
@@ -751,17 +751,18 @@ textarea {
   color: #b270a2;
   font-weight: 400;
   margin-top: 10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .card-button {
   text-decoration: none;
-  padding: 5px 16px;
+  padding: 5px 18px;
   border: none;
   border-radius: 5px;
   background-color: #7a4495;
   color: #fce2db;
-  margin-top: 10px;
+  margin-top: 5px;
+  margin-bottom: 20px;
 }
 
 .card-button:hover {
@@ -773,6 +774,7 @@ textarea {
   width: 93%;
   position: absolute;
   bottom: 10px;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 850px) {
@@ -802,24 +804,35 @@ textarea {
 /* ---------------------------------------- Producto ------------------------------------- */
 
 .producto {
-  flex-direction: column;
+  flex-direction: row;
   font-family: "Quicksand", sans-serif;
   color: #b270a2;
   text-align: justify;
   height: 80%;
 }
 
-.producto img {
-  margin-top: -65px;
-  margin-bottom: 40px;
+.servicios-container-img {
+  width: 45%;
 }
 
-.producto p {
-  padding: 0 50px;
+.servicios-container-content {
+  width: 45%;
+}
+
+.servicios-container-img img {
+  width: 85%;
+  margin-top: -125px;
+  margin-bottom: 20px;
+  margin-left: 40px;
+}
+
+.servicios-container-content p {
+  padding: 0 50px 0 20px;
+  margin: -150px auto auto -30px;
 }
 
 .producto h4 {
-  margin: 10px auto;
+  margin: 30px auto 10px;
   color: #7a4495;
 }
 

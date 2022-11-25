@@ -26,7 +26,7 @@ function Navbar() {
           <a href="/">Nosotros</a>
         </li>
         <li>
-          <a href="/servicios">Servicios</a>
+          <a href="/products">Servicios</a>
         </li>
         <li>
           <a href="/publicaciones">Publicaciones</a>
