@@ -29,7 +29,7 @@ function Navbar() {
           <a href="/products">Servicios</a>
         </li>
         <li>
-          <a href="/publicaciones">Publicaciones</a>
+          <a href="/posts">Publicaciones</a>
         </li>
         <li>
           <a href="/contact">Contáctanos</a>

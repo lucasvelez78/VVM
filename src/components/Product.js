@@ -25,18 +25,18 @@ function Product(props) {
 
   function handleSubmit(evt) {
     evt.preventDefault();
-    navigate("/");
+    navigate("/purchased");
   }
 
   if (buy) {
     return (
-      <div className="form-buy">
-        <form onSubmit={handleSubmit}>
+      <div className="form-buy-div">
+        <form onSubmit={handleSubmit} className="form-buy">
           <div className="form-group">
             <label htmlFor="name">
               Tu nombre
               <input
-                className="form-input"
+                className="form-input input-name"
                 type="text"
                 name="name"
                 value={userInfo.name}
@@ -48,7 +48,7 @@ function Product(props) {
             <label htmlFor="email">
               Tu email
               <input
-                className="form-input"
+                className="form-input input-email"
                 type="text"
                 name="email"
                 value={userInfo.email}
@@ -60,7 +60,7 @@ function Product(props) {
             <label htmlFor="message">
               Tu producto
               <input
-                className="form-input"
+                className="form-input input-text"
                 type="text"
                 name="producto"
                 defaultValue={product}
