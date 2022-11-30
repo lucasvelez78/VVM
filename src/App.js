@@ -8,6 +8,7 @@ import Products from "./pages/products";
 import Posts from "./pages/posts";
 import ProductDetail from "./pages/product-detail";
 import Purchased from "./pages/purchased";
+import Viviana from "./pages/viviana";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/:product" element={<ProductDetail />} />
         <Route path="/posts" element={<Posts />} />
         <Route path="/purchased" element={<Purchased />} />
+        <Route path="/viviana" element={<Viviana />} />
       </Routes>
     </BrowserRouter>
   );
